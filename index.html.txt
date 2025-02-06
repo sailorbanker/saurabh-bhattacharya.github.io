@@ -1,0 +1,116 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Bhattacharya - Blog & Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blogs">My Blogs</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#store">My Store</a></li>
+                <li><a href="#photos">My Photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal blog where I share my thoughts, experiences, and more.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Saurabh Bhattacharya. This is my space to share insights and connect.</p>
+    </section>
+
+    <section id="blogs">
+        <h2>My Blogs</h2>
+        <p>Coming soon: A collection of my latest articles and thoughts.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Get in touch via email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+
+    <section id="store">
+        <h2>My Store</h2>
+        <p>Stay tuned for upcoming products and services.</p>
+    </section>
+
+    <section id="photos">
+        <h2>My Photos</h2>
+        <p>A gallery of my favorite pictures.</p>
+    </section>
+
+    <footer>
+        <h3>Follow Me</h3>
+        <p>
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+---
+
+styles.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
